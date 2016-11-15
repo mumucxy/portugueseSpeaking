@@ -1,0 +1,126 @@
+.addProFile input{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0);
+	opacity: 0;
+	filter: alpha(opacity=0);/*IE滤镜，透明度50%*/
+    -moz-opacity:0; /*Firefox私有，透明度50%*/
+    opacity:0;/*其他，透明度50%*/
+	height: 10em;
+}
+.addProFile {
+	text-align: center;
+}
+.addProFile label{
+	text-align: left;
+}
+.addProFile img{
+   
+   position: relative;
+   top: -7em;  
+}
+/*leaveWord1*/
+#leaveWordNav{
+	height: 2.3em;
+	width: 100%;
+	background-color: rgba(255,255,255,0.7);
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-x: scroll; /* 1 */
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-overflow-scrolling: touch; /* 2 */
+	text-align: justify; /* 3 */
+	&::-webkit-scrollbar {
+	display: none;
+	}
+}
+.leaveWordNavTwoLevelContainer div{
+	display: inline-block;
+    height: 2.3em;
+    text-align: center;
+    line-height: 2em;
+    width: 20%;
+
+}
+/*common myOther*/
+/*我的订单*/
+.graybody{
+	background-color: rgba(240,240,240,0.5);
+	
+}
+.myOrderList{
+	margin-top: 3%;
+    width: 100%;
+  
+    background-color: white;
+}
+.myOrderList label:nth-child(1){
+	padding: 2%;
+}
+.myOrderList label:nth-child(1) img{
+	width: 1em;
+}
+.myOrderList label:nth-child(1) span{
+	position: relative;
+	top: -0.1em;
+}
+.myOrderList label:nth-child(1) span:nth-child(3){
+	float: right;
+	color: red;
+}
+.myOrderList div{
+	background-color: rgba(240,240,240,0.5);
+	height: 3em;
+}
+.myOrderList div{
+ height: 6.5em;
+}
+.myOrderList div p{
+	float: left;
+	margin: 3%;
+}
+.myOrderList div p:nth-child(1){
+	width: 20%;
+}
+.myOrderList div p:nth-child(1) img{
+	width:5em;
+	height: 5em;
+}
+.myOrderList div p:nth-child(2){
+	width: 50%;
+}
+.myOrderList div p:nth-child(3) label{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

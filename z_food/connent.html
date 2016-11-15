@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>中国-葡语国家经贸合作及人才信息网</title>
+		<link rel="stylesheet" href="../css/themes/cP.css" />
+		<link rel="stylesheet" href="../css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+		<link rel="stylesheet" href="../css/totalStyle.css" />
+		<link rel="stylesheet" href="../css/foodSty.css" />
+
+</head>
+<body>
+	<div id="myPage" data-role="page">
+			<!--页头-->
+			<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
+				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
+				<h1>THOQUINO</h1>
+				<!--会员登录-->
+				<a class="ui-btn-right member"><img src="../img/icon/user.png" /></a>
+				<div data-role="dialog" class="memberShow" style="display: none; z-index: 3000;">
+					<div data-role="header" data-theme="b">
+						<h1>登录</h1>
+					</div>
+					<div data-role="content" data-theme="a">
+						<h5 style="text-align: center;">您还未登录，请问是否马上登录？</h5>
+						<div style="text-align: center;"><a href="#" data-role="button" data-theme="a">马上去登录</a> </div>
+					</div>
+				</div>
+			</div>
+		<!--内容-->
+		<div class="ui-content" role="main">
+			<!--供应商信息-->
+           <div id="supplierMess">
+           	<div><p><img src="../img/food/supplierMess.png"/></p>
+           		  <p>供应商信息</p></div>
+           	<div><p>国家/地区：中国澳门</p>
+           		<p>企业类型：代理商</p>
+           		<p>成立年份：1970</p>
+           		<p>雇佣人数：</p>
+           		<p>业务性质：</p>
+           		<p>主营产品</p>
+           	</div>
+           </div>
+		   <div id="supplierCon" >
+		   	<div><p>联系人：</p>
+           		<p>联系电话：66837071</p>
+           		<p>传真号码：853-28410348</p>
+           		<p>电子邮件：</p>
+           		<p>ken.lok@sennaplena.com</p>
+		   	</div>
+           	<div><p><img src="../img/food/supplierCon.png"/></p>
+           		  <p>联系方式</p></div>
+		   </div>
+			<!--发送邮件给供应商-->
+			<form>
+				<label>您的电邮地址:</label><input type="text" />
+				<label>收件人：</label><input type="text" />
+				<label>查询内容：</label>
+				<textarea style="resize: none;"></textarea>
+				<label>我想收到：</label>
+			   <fieldset data-role="controlgroup">
+			          <label for="Cconpany">公司资料</label>
+			          <input type="checkbox" name="" id="Cconpany" value="Cconpany">
+			          <label for="Cstandard">产品规格</label>
+			          <input type="checkbox" name="" id="Cstandard" value="Cstandard">
+			          <label for="Cnum">最低订购数量</label>
+			          <input type="checkbox" name="" id="Cnum" value="Cnum">
+			          <label for="Cprice">离岸价格</label>
+			          <input type="checkbox" name="" id="Cprice" value="Cprice">
+			      </fieldset>
+			      <label>小批量订购</label>
+			     <fieldset data-role="controlgroup">
+			        <label for="Cinterest">有兴趣</label>
+			        <input type="radio" name="" id="Cinterest" value="Cinterest">
+			        <label for="Cuninterest">不感兴趣</label>
+			        <input type="radio" name="" id="Cuninterest" value="Cuninterest">	
+			      </fieldset> 
+			      <label>初次订货量:</label><input type="text" value="1"/>
+			      <a href="#" data-rel="back"><input type="submit" value="提交"/></a>
+			</form>
+		</div>
+
+	</div>
+		<script src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
+        <script src="../js/totalAct.js"></script>
+</body>
+</html>

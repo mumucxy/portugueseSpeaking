@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>中国-葡语国家经贸合作及人才信息网</title>
+		<link rel="stylesheet" href="../css/themes/cP.css" />
+		<link rel="stylesheet" href="../css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+		<link rel="stylesheet" href="../css/totalStyle.css" />
+        <link rel="stylesheet" type="text/css" href="../css/personalSty.css"/>
+</head>
+<body>
+		<div id="myPage" data-role="page">
+			<!--页头-->
+			<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
+				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
+				<h1>账户资料</h1>
+				<!--语言选择-->
+				<a class="ui-btn-right language">简体</a>
+				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
+					<div data-role="content" data-theme="a">
+						<ul>
+							<li><a href="#">简体</a></li>
+							<li><a href="#">繁体</a></li>
+							<li><a href="#">Português|</a></li>
+							<li><a href="#">English</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--内容-->
+			<div class="ui-content" role="main" style="padding: 0;">
+				<!--导航-->
+		     <div data-role="navbar">
+	           <ul >
+	           	<li><a href="userMessage.html" data-transition="none">账户</a></li>           		
+	           	<li><a href="myConpany.html" data-transition="none">企业</a></li>
+	           	<li><a href="myProduct.html" data-transition="none">发布</a></li>
+	           	<li><a href="leaveWord1.html" data-transition="none">留言</a></li>
+	           	<li><a href="#">站内信</a></li>	           
+	           </ul>
+	         </div>
+	          <div style="padding: 10%;">
+	          	<form action="" method="post">
+	          		<label>产品名称：</label>
+	          		<input type="text" />
+	          		<label>产品类别：</label>
+                    <fieldset data-role="fieldcontain">
+				        <select name="" id="" data-native-menu="false">
+				         <option value="">请选择</option>
+				         <option value="">酒</option>
+				         <option value="">其他</option>
+				         <option value="">海鲜</option>			    
+				        </select>
+				      </fieldset>
+				      <label>国家/地区：</label>
+				       <fieldset data-role="fieldcontain">
+				        <select name="" id="" data-native-menu="false">
+				         <option value="">安哥拉</option>
+				         <option value="">巴西</option>
+				         <option value="">佛得角</option>
+				         <option value="">中国</option>			    
+				        </select>
+				      </fieldset>
+				      <label>产品产地</label>
+				      <input type="text" />
+				      <label>产品尺寸</label>
+				      <input type="text" />
+				      <label>是否进入内地</label>
+					      <fieldset data-role="controlgroup">
+					        <label for="yesInland">是</label>
+					        <input type="radio" name="Inland" id="yesInland" value="yesInland" checked>
+					        <label for="noInland">否</label>
+					        <input type="radio" name="Inland" id="noInland" value="noInland">	
+					      </fieldset>
+				      <label>产品品牌</label>
+				      <input type="text" />
+				      <label>产品价格$：</label>
+				      <input type="text" />
+				      <label>生产厂家：</label>
+				      <input type="text" />
+				      <label>HS码：</label>
+				      <input type="text" />
+				      <label>是否可以线上交易：</label>
+				      <fieldset data-role="controlgroup">
+					        <label for="yesOnline">是</label>
+					        <input type="radio" name="online" id="yesOnline" value="yesOnline" checked>
+					        <label for="noOnline">否</label>
+					        <input type="radio" name="online" id="noOnline" value="noOnline">	
+					      </fieldset>
+				      <label>是否设有B2B或B2C交易：</label>
+				       <fieldset data-role="controlgroup">
+					        <label for="noB2B">否</label>
+					        <input type="radio" name="B2B" id="noB2B" value="noB2B" checked>	
+					        <label for="yesB2B">B2B</label>
+					        <input type="radio" name="B2B" id="yesB2B" value="yesB2B">
+					        <label for="yesB2C">B2C</label>
+					        <input type="radio" name="B2B" id="yesB2C" value="yesB2C">
+					      </fieldset>
+					    <label>产品介绍：</label>
+					    <textarea style="resize: none;"></textarea>
+					    <label>产品信息：</label>
+					    <textarea style="resize: none;"></textarea>
+					    <div class="addProFile">
+					    <label>产品主图：</label>
+					    <input  type="file" >
+					    <img src="../css/themes/images/icons-png/plus-black.png" / >
+					     </div>
+					     <div class="addProFile">
+					     <label>产品图：</label>
+					    <input  type="file" >
+					    <img src="../css/themes/images/icons-png/plus-black.png" / >
+					    </div>
+					    <div class="addProFile">
+					    <label>产品图：</label>
+					    <input  type="file" >
+					    <img src="../css/themes/images/icons-png/plus-black.png" / >
+					    </div>
+	          		<input type="submit" value="提交"/>
+	          	</form>
+	          </div>
+			</div>
+		
+		</div>
+		<script src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
+        <script src="../js/totalAct.js"></script>
+</body>
+</html>

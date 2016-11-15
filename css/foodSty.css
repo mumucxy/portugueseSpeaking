@@ -1,0 +1,219 @@
+
+/*connent*/
+form{
+	width: 80%;
+	margin: auto;
+}
+/*供应商信息*/
+#supplierMess{
+	width: 100%;
+	height: 10em;
+}
+#supplierMess div{
+	float:left ;
+	text-align: center;    
+}
+#supplierMess div:nth-child(1){
+	width: 30%;
+	height: 10em;
+	background-color:#f8f8f8;
+
+}
+#supplierMess div:nth-child(2){
+	margin-left: 2%;
+	width: 68%;
+	height: 10em;
+	background-color:#f8f8f8;
+}
+#supplierMess div:nth-child(2) p{
+	font-size: small;
+	text-align: left;
+	position: relative;
+	top: 1.5em;
+	left: 1.5em;
+	margin: 0;
+    height: 1.65em;
+}
+/*供应商联系方式*/
+#supplierCon{
+	margin-top: 3%;
+	width: 100%;
+	height: 10em;
+}
+#supplierCon div{
+	float:left ;
+	text-align: center;  
+}
+#supplierCon div:nth-child(1){
+	width: 68%;
+	height: 10em;
+	background-color:#f8f8f8;
+}
+#supplierCon div:nth-child(1) p{
+	font-size: small;
+	text-align: left;
+	position: relative;
+	top: 1.5em;
+	left: 1.5em;
+	margin: 0;
+    height: 1.8em;
+}
+#supplierCon div:nth-child(2){
+	margin-left: 2%;
+	width: 30%;
+	height: 10em;
+	background-color:#f8f8f8;
+}
+/*foodmore*/
+#foodmoreTwoLevel{
+	height: 2.3em;
+	width: 100%;
+	background-color: rgba(255,255,255,0.7);
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-x: scroll; /* 1 */
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-overflow-scrolling: touch; /* 2 */
+	text-align: justify; /* 3 */
+	&::-webkit-scrollbar {
+	display: none;
+	}
+}
+.foodmoreTwoLevelContainer div{
+	display: inline-block;
+    height: 2.3em;
+    text-align: center;
+    line-height: 2em;
+    width: 20%;
+
+}
+dd{
+	-webkit-margin-start: 0;
+	margin-bottom: 5%;
+}
+.fooMoreMess1{
+	display: inline-block;
+	margin: 0;
+	font-size: 0.7em;
+	width: 24%;
+	color: red;
+}
+.fooMoreMess2{
+	display: inline-block;
+	margin: 0;
+	font-size: 0.2em;
+	width: 38%;
+	color: darkgray;
+}
+.fooMoreMess3{
+	display: inline-block;
+	margin: 0;
+	font-size: 0.2em;
+	width: 28%;
+	color: darkgray;
+}
+/*shoppingCart*/
+/*内容*/
+.sCartMess{
+	margin: 0;
+	width: 100%;
+	
+}
+.sCartMess legend{
+	width: 100%;
+	font-size: 1.3em;
+	
+}
+
+fieldset .ui-checkbox img{
+	width: 5em;
+}
+.sCartMess .inline{
+	display: inline-block;
+}
+.sCartMess .sCartProMess{
+	margin-left: 3%;
+}
+fieldset .ui-checkbox span img{
+	width: 1em;
+	position: absolute;
+	left: 15em;
+	top: 6.3em;
+	z-index: 6;
+}
+.payMess label{
+	line-height: 2em;
+	border: 0;
+	box-shadow: 0;
+}
+.payMess p{
+	display: inline-block;
+	margin: 0;
+	line-height: 3.5em;
+	color: gray;
+}
+.payMess img{
+	position: relative;
+	top:0.2em;
+	width: 1.2em;
+	left:-0.1em;
+}
+.payMess .ui-checkbox{
+	margin-left: 1.4em;
+}
+.sCartSelectNum{
+	display: inline-block;
+	position:absolute;
+	top:0.1em;
+	left: 8em;
+	background-color: white;
+	width: 53%;
+	height: 9em;
+	z-index:8 ;
+	line-height: 5em;
+	
+	display: none;
+}
+.sCartSelectNum button{
+	background-color: white;
+	border: 0;
+}
+.sCartSelectNum .minus{
+	 position: absolute;
+     left: 0px;
+     top:2em;
+}
+.sCartSelectNum .add{
+  position: absolute;
+  right: 0px;
+  top:2em;
+}
+.sCartSelectNum button img{
+	width: 1em;
+}
+.sCartSelectNum input{
+	position: absolute;
+	top:2.5em;
+	width:30%;
+	margin-left:40%;
+	border: 0;
+}
+.sCartSelectNum  .changComplete{
+background-color:#DAE9EE ;
+    width: 100%;
+    height:2.3em;
+    color: gray;
+    position: absolute;
+    top: 3.5em;
+    left: 0em;
+}
+.sCartSelectNum .deleteProduct {
+	background-color:#DAE9EE ;
+    width: 100%;
+    height:2.3em;
+    color: gray;
+    position: absolute;
+    top: 5.9em;
+    left: 0em;
+}

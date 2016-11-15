@@ -1,0 +1,51 @@
+/*index*/
+/*封面*/
+.ui-content {
+	padding: 0;
+}
+
+#homeCover img {
+	width: 100%;
+}
+/*内容*/
+.homeCon a{
+	color: gray;
+}
+.homeCon a:visited{
+	color: gray;
+}
+.homeConCo div{
+	float: left;
+	width: 40%;
+	height: 10em;
+	padding: 5%;
+}
+.homeConCo div label{
+	margin-top: 35%;
+}
+.foo{
+	background-image: url(../img/icon/home_food.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+
+}
+.peo{
+	background-image: url(../img/icon/home-people.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+.exh{
+	background-image: url(../img/icon/home-factory.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+.eco{
+	background-image: url(../img/icon/home-new.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>中国-葡语国家经贸合作及人才信息网</title>
+    <link rel="stylesheet" href="../css/themes/cP.css" />
+    <link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="../css/totalStyle.css" /> 
+    <link rel="stylesheet" type="text/css" href="../css/orderAccSty.css"/>
+</head>
+<body >
+	<div id="myPage" data-role="page">
+		<!--页头-->
+		<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
+        <!--返回-->
+			<a href="changeLocation.html" class="ui-btn-left" >修改</a>
+			<h1>我的收货地址</h1>
+			<!--语言选择-->
+				<a class="ui-btn-right language" style="margin-top: 0.3em;">简体</a>
+				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
+					<div data-role="content" data-theme="a">
+						<ul>
+							<li><a href="#">简体</a></li>
+							<li><a href="#">繁体</a></li>
+							<li><a href="#">Português|</a></li>
+							<li><a href="#">English</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		<!--内容-->
+		<div class="ui-content" role="main">
+			<div class="mylocation" style="width: 100%;"><p><span>收貨人：XXX</span><span>13687690988</span></p>
+	           <p>收貨地址：廣東省珠海市香洲區唐家灣鎮香洲區唐家灣金鳳路18號北京師範大學珠海分校</p>   	
+			</div>
+			<hr />
+		</div>
+		<!--页脚-->
+		<div data-role="footer" data-position="fixed">
+         <div data-role="navbar">
+           <ul>
+           	<li class="scPay"><a href="orderAccout.html" data-transition="none" data-ajax="false"><p>确定</p></a></li>                 
+           </ul>
+         </div>
+		</div>
+	</div>
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
+    <script type="text/javascript" src="../js/totalAct.js"></script>
+</body>
+</html>

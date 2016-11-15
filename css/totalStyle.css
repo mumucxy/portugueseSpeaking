@@ -1,0 +1,121 @@
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+h5{
+	text-align: center;
+}
+/*body{
+	display: none;
+}*/
+/*页头*/
+
+
+/*语言选择*/
+
+.headSty .ui-btn-left {
+	background-color: #b4dcdb;
+	border: 0;
+	box-shadow: none;
+	padding: 0.65em;
+	margin-top: 0.3em;
+}
+
+.headSty .ui-btn-left:hover {
+	background-color: #b4dcdb;
+	border: 0;
+	box-shadow: none;
+	padding: 0.65em;
+}
+
+.headSty .ui-btn.ui-btn-active {
+	background-color: #b4dcdb;
+	color: gray;
+}
+.languageShow{
+	position: fixed;
+	top: 1.7em;
+	left: -3em;
+	display: none;
+}
+.languageShow li{
+	height: 2em;
+	width: 8em;
+	background-color: rgba(255,255,255,0.8);
+	border-bottom: 1px solid gainsboro;
+	text-align: center;
+	line-height: 2em;
+}
+
+/*会员登录*/
+
+.ui-btn-right img {
+	width: 1em;
+	height: 1.5em;
+}
+
+
+.headSty .ui-btn-right {
+	background-color: #b4dcdb;
+	border: 0;
+	box-shadow: none;
+	padding: 0.65em;
+}
+.headSty .ui-btn:hover{
+	background-color: #b4dcdb;
+	
+	box-shadow: none;
+}
+.memberShow .ui-btn-left {
+	padding: 0;
+}
+.havedLogin{
+	position: fixed;
+	top: 1.7em;
+	right: 0;
+	display: none;
+}
+.havedLogin li{
+	height: 2em;
+	width: 8em;
+	background-color: rgba(255,255,255,0.8);
+	border-bottom: 1px solid gainsboro;
+	text-align: center;
+	line-height: 2em;
+}
+
+/*页脚*/
+
+.ui-footer-fixed {
+	padding-bottom: 0;
+}
+.iconSty a {
+	padding: 0.5em;
+	border: 0;
+	text-shadow: none;
+}
+
+.ui-footer {
+	background-color: #f3fcff!important;
+	filter: alpha(opacity=90);
+	/*IE滤镜，透明度50%*/
+	-moz-opacity: 0.9;
+	/*Firefox私有，透明度50%*/
+	opacity: 0.9;
+	/*其他，透明度50%*/
+}
+
+.ui-footer .ui-btn {
+	background-color: #f3fcff;
+}
+
+.ui-footer .ui-btn:visited {
+	background-color: #f3fcff;
+}
+.footerHome a{
+	padding: 0;
+}
+

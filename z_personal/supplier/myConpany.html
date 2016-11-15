@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>中国-葡语国家经贸合作及人才信息网</title>
+		<link rel="stylesheet" href="../css/themes/cP.css" />
+		<link rel="stylesheet" href="../css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+		<link rel="stylesheet" href="../css/totalStyle.css" />
+
+</head>
+<body>
+		<div id="myPage" data-role="page">
+			<!--页头-->
+			<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
+				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
+				<h1>账户资料</h1>
+				<!--语言选择-->
+				<a class="ui-btn-right language">简体</a>
+				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
+					<div data-role="content" data-theme="a">
+						<ul>
+							<li><a href="#">简体</a></li>
+							<li><a href="#">繁体</a></li>
+							<li><a href="#">Português|</a></li>
+							<li><a href="#">English</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--内容-->
+			<div class="ui-content" role="main" style="padding: 0;">
+				<!--导航-->
+		     <div data-role="navbar">
+	           <ul >
+	           	<li><a href="userMessage.html" data-transition="none">账户</a></li>           		
+	           	<li><a href="myConpany.html" data-transition="none">企业</a></li>
+	           	<li><a href="myProduct.html" data-transition="none">发布</a></li>
+	           	<li><a href="leaveWord1.html">留言</a></li>
+	           	<li><a href="#">站内信</a></li>	      
+	           </ul>
+	         </div>
+	          <div style="padding: 10%;">
+	          <form action="" method="post">
+	          	 <label>您的身份：</label>
+	          	 <fieldset data-role="controlgroup">
+					        <label for="IDbuy">采购商</label>
+					        <input type="radio" name="myID" id="IDbuy" value="IDbuy" checked>
+					        <label for="IDpurchase">供应商</label>
+					        <input type="radio" name="myID" id="IDpurchase" value="IDpurchase">
+					        <label for="IDgrent">代理商</label>
+					        <input type="radio" name="myID" id="IDgrent" value="IDgrent">	
+				</fieldset>
+	          	 <label>企业名称：</label>
+	          	 <input type="text" />
+	          	 <label>国家/地区：</label>
+	          	 <fieldset data-role="fieldcontain">
+				        <select name="" id="" data-native-menu="false">
+				         <option value="">安哥拉</option>
+				         <option value="">巴西</option>
+				         <option value="">佛得角</option>
+				         <option value="">中国</option>			    
+				        </select>
+				  </fieldset>
+	          	 <label>联系地址：</label>
+	          	 <input type="text" />
+	          	 <label>邮政编码：</label><input type="text" />
+	          	 <label>成立年份：</label><input type="text" placeholder="2016"/>
+	          	 <label>商业登记编号：</label><input type="text" />
+	          	 <label>雇员人数</label><input type="text" />
+	          	 <label>注册资本</label><input type="text" />
+	          	 <label>公司注册地：</label><input type="text" />
+	          	 <label>年采购金额/年销售金额（US$）：</label><input type="text" />
+	          	 <label>年采购量/出口量：</label><input type="text" />
+	          	 <label>主要进口（或出口）国家/地区：</label><input type="text" />
+	          	 <label>是否在海外设有子公司/办事处：</label>
+	          	 <fieldset data-role="controlgroup">
+					<label for="YESsonConpany">有</label>
+					<input type="radio" name="sonConpany" id="YESsonConpany" value="YESsonConpany" checked>
+					<label for="NOsonConpany">没有</label>
+					<input type="radio" name="sonConpany" id="NOsonConpany" value="NOsonConpany">
+				</fieldset>
+	          	 <label>业务性质：</label><input type="text" />
+	          	 <label>企业介绍：</label><input type="text" />
+	          	 <label>产品服务范围概述：</label><input type="text" />
+	          	 <hr / style="margin: 10%;border:1px solid #DAE9EE;">
+	          	 <label>联络人：</label><input type="text" />
+	          	 <label>职位：</label><input type="text" />
+	          	 <label>电话：</label><input type="text" />
+	          	 <label>手机号码：</label><input type="text" />
+	          	 <label>传真号码：</label><input type="text" />
+	          	 <label>电子邮箱：</label><input type="text" />
+	          	 <label>网址：</label><input type="text" />
+	          	<input type="submit" value="提交"/>
+	          </form>
+	          </div>
+			</div>
+		
+		</div>
+		<script src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
+        <script src="../js/totalAct.js"></script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+
+/**/
+/*底部*/
+.payMess p{
+	display: inline-block;
+	margin: 0;
+	line-height: 3.5em;
+	color: gray;
+}
+.payMess img{
+	position: relative;
+	top:0.1em;
+	width: 1.2em;
+	height: 1.2em;
+	
+}
+.redWrite{
+	color: red;
+}
+.scPay .ui-btn{
+	background-color: #dae9ee;
+	color: #90c9c3;
+}
+.scPay .ui-btn:visited{
+	background-color: #dae9ee;
+	color: #90c9c3;
+}
+.scPay p{
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 3em;
+}
+.scPay a{
+	padding: 0;
+}
+
+
+/*foodmessage*/
+.fmC{
+  text-align: center;
+  width: 100%;
+}
+.fmC img{
+  height: 13em;
+}
+.fmT{
+	height: 2.3em;
+}
+.fmT p{
+	float: left;
+	display: block;
+	margin: 0.5em;
+}
+.fmT .fmMore{
+  color: darkgray;
+  font-size: small;
+  position: relative;
+  bottom: -0.3em;
+}
+.fmT img{
+	margin: 0.3em;
+	width: 1.5em;
+	position: absolute;
+	right:1em;
+	
+}
+.fmP{
+	color: red;
+	margin-left: 0.5em;
+}
+.fmEx{
+	height: 1.5em;
+}
+.fmEx p{
+	float: left;
+	width: 30%;
+	font-size:0.1em;
+	color: darkgray;
+	text-align: center;
+	margin-bottom: 0;
+}
+.fmEx p:nth-child(1){
+	text-align: left;
+	margin-left: 0.5em;
+}
+.fmDet{
+	height: 18em;
+	margin-left: 0.5em;
+	color: gray;
+}
+.fmMess{
+	text-align: center;
+	margin: auto;
+}
+.fmMess img{
+	width: 100%;
+}
+/*foodmore*/
+
+
+
+/*订单结算*/
+
+.orderAccSub {
+	text-align: center;
+}
+.orderAccSub li:first-child{
+	width: 70%;
+}
+.orderAccSub li:last-child{
+	width: 30%;
+}
+.orderAccCust{
+	padding-left: 1em;
+}
+.orderAccCust p{
+	margin: 0;
+}
+.orderAccCustP p{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+.orderAccCustP p:first-child{
+   text-align: left;
+}
+.orderAccDel p{
+	margin-bottom: 0.2em;
+}
+.orderAccDel div{
+	margin-bottom: 0.2em;
+}
+.orderAccDel .orderAccBig{
+	font-size: 1.5em;
+}
+.orderAccNum p{
+	line-height: 1em;
+	padding: 0;
+}
+.orderAccImg{
+	margin-left: 1em;
+}
+.orderAccImg img{
+	width: 3em;
+}
+.orderAccPri label{
+	display: inline-block;
+	float: right;
+	margin-right: 2em;
+}
+.orderAccMess{
+	z-index: 100;
+	float: right;
+	position: relative;
+	right: 0.5em;
+}
+.orderAccMessMore {
+	position: relative;
+	right: -0.5em;
+	margin: 1em;
+}
+.orderAccMessMore img{
+	width: 14px;
+	height: 14px;
+}
+/*商品列表*/
+.shopList li{
+	position: relative;
+	left: -2.5em;
+	height: 4em;
+}
+.shopList div{
+	position: relative;
+	left: 0;
+}
+.shopList img{
+	width: 3em;
+	height: 3em;
+}
+.slFloat{
+	float: left;
+}
+/*支付中心*/
+.payCenli p{
+	width: 70%;
+	display: inline-block;
+    position: relative;
+    top:-1.2em;
+}
+
+.payCenli  .ui-btn.ui-corner-all{
+	border-radius: 0;
+}
+.payCenli .ui-radio{
+	margin-top: 0.1em;
+	margin-bottom: 0em;
+}
+.payCenli img{
+	margin: 0.5em;
+	position: relative;
+	bottom: -0.5em;
+}
+.payCenli label{
+	padding: 0;
+	padding-left:2em;
+}
+
+.payCenterMess img{
+	width: 3.5em;
+	margin: 1em;
+	margin-bottom: 0em;
+}
+.payCenterMess div{
+	display: inline-block;
+	position: relative;
+	top: -0.2em;
+}
+.payCenterMess p{
+	margin: 0;
+	color: #000000;
+	font-size: 0.5em;
+	margin-bottom: 0.5em;
+}
+.payCenterMess label{
+	display: inline-block;
+	font-size: 0.5em;
+}
+/*优惠*/
+.favWri{
+	padding-top: 1em;
+	text-align: center;
+	margin: auto;
+}
+/*付款方式*/
+.selPayCh .ui-btn.ui-corner-all{
+	border-radius: 0em;
+}
+/*food*/
+.ui-content h3 {
+	text-align: center;
+}
+.foodCon {
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+}
+.foodCon dl {
+	margin: auto;
+	float: left;
+	width: 49%;
+	border: 1px solid #dae9ee;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.foodCon img {
+	width: 80%;
+}
+
+/*index*/
+
+
+/*封面*/
+
+.ui-content {
+	padding: 0;
+}
+
+#homeCover img {
+	width: 100%;
+}
+
+
+/*中部内容*/
+
+.homeCon {
+	padding: 5%;
+}
+
+.homeConCo {
+	float: left;
+}
+
+.homeConCo div{
+	float: left;
+	width: 40%;
+	margin: 5%;
+}
+
+.homeConCo img {
+	width: 100%;
+	display: block;
+}
+
+.foo p {
+	margin: 0;
+	position: relative;
+	background-image: url(../img/home/homeFooC.png);
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	line-height: 2em;
+}
+
+.peo p {
+	margin: 0;
+	position: relative;
+	background-image: url(../img/home/homePeoC.png);
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	line-height: 2em;
+}
+
+.exh p {
+	margin: 0;
+	position: relative;
+	background-image: url(../img/home/homeExhC.png);
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	line-height: 2em;
+}
+
+.eco p {
+	margin: 0;
+	position: relative;
+	background-image: url(../img/home/homeEcoC.png);
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+	line-height: 2em;
+	text-shadow: none;
+}
+
+
+/*底部导航*/
+
+.homeLead a {
+	padding: 0;
+	border: 0;
+}
+
+.homeLead img {
+	width: 8em;
+	height: 3em;
+}
