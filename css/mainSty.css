@@ -255,92 +255,17 @@
 .foodCon img {
 	width: 80%;
 }
-
-/*index*/
-
-
-/*封面*/
-
-.ui-content {
-	padding: 0;
-}
-
-#homeCover img {
-	width: 100%;
-}
-
-
-/*中部内容*/
-
-.homeCon {
-	padding: 5%;
-}
-
-.homeConCo {
-	float: left;
-}
-
-.homeConCo div{
-	float: left;
-	width: 40%;
-	margin: 5%;
-}
-
-.homeConCo img {
-	width: 100%;
-	display: block;
-}
-
-.foo p {
+dd{
 	margin: 0;
+}
+#homeCover{
 	position: relative;
-	background-image: url(../img/home/homeFooC.png);
-	text-align: center;
-	color: white;
-	font-size: 0.8em;
-	line-height: 2em;
+	left: -10%;
 }
-
-.peo p {
-	margin: 0;
-	position: relative;
-	background-image: url(../img/home/homePeoC.png);
-	text-align: center;
-	color: white;
-	font-size: 0.8em;
-	line-height: 2em;
-}
-
-.exh p {
-	margin: 0;
-	position: relative;
-	background-image: url(../img/home/homeExhC.png);
-	text-align: center;
-	color: white;
-	font-size: 0.8em;
-	line-height: 2em;
-}
-
-.eco p {
-	margin: 0;
-	position: relative;
-	background-image: url(../img/home/homeEcoC.png);
-	text-align: center;
-	color: white;
-	font-size: 0.8em;
-	line-height: 2em;
-	text-shadow: none;
+#homeCover img{
+	width: 120%;
+	height: 15em;
 }
 
 
-/*底部导航*/
 
-.homeLead a {
-	padding: 0;
-	border: 0;
-}
-
-.homeLead img {
-	width: 8em;
-	height: 3em;
-}

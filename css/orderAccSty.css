@@ -18,7 +18,10 @@ div{
 	font-size: 1.2em;
 	color:cornflowerblue;
 }
-
+.sure{
+	height: 3em;
+	
+}
 /*内容*/
 #orderLocation{
 	height: 5em;
@@ -36,6 +39,7 @@ div{
 }
 .mylocation{
 	width: 80%;
+
 	
 }
 .mylocation  span:nth-child(2){
@@ -115,7 +119,6 @@ div{
 	height: 7.5em;
 }
 .mychangelocation .cL_change{
-	float: right;
 	width:3em ;
 }
 

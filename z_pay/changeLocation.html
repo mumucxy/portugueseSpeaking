@@ -14,37 +14,34 @@
 		<!--页头-->
 		<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
         <!--返回-->
-		<a href="location.html" class="ui-btn-left" ><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
+		<a href="location.html" class="ui-btn-left" data-ajax=false ><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
 			<h1>修改收货地址</h1>
 			<!--语言选择-->
-				<a class="ui-btn-right language" style="margin-top: 0.3em;">简体</a>
-				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
-					<div data-role="content" data-theme="a">
-						<ul>
-							<li><a href="#">简体</a></li>
-							<li><a href="#">繁体</a></li>
-							<li><a href="#">Português|</a></li>
-							<li><a href="#">English</a></li>
-						</ul>
-					</div>
-				</div>
+				<a class="ui-btn-right language">简体</a>
+				<ul class="languageShow" style="position: fixed; right: 0;left: auto;">
+					<li>简体</li>
+					<li>繁體</li>
+					<li>Português|</li>
+					<li>English</li>
+				</ul>
 		</div>
 		<!--内容-->
 		<div class="ui-content" role="main">
-			<div class="mylocation mychangelocation" ><p class="mylocationp"><span>收貨人：XXX</span><span>13687690988</span></p>
-	           <p >收貨地址：廣東省珠海市香洲區唐家灣鎮香洲區唐家灣金鳳路18號北京師範大學珠海分校</p>  
+			<div class="mylocation" style="width: 100%;"><p><span><span>收貨人</span>：XXX</span><span>13687690988</span></p>
+	           <p><span>收貨地址</span>：廣東省珠海市香洲區唐家灣鎮香洲區唐家灣金鳳路18號北京師範大學珠海分校</p> 
 	           <hr style="border: 1px solid gainsboro;"  />
-	           <span class="cL_change"><a href="addLocation.html">编辑</a></span>
-	           <span class="cL_change cL_delete" ><a href="#">删除</a></span>
-			</div>
+	           <p><span class="cL_change"><a href="addLocation.html">编辑</a></span>
+	           <span class="cL_change cL_delete" ><a href="#">删除</a></span></p>
 			<hr style="border: 1px solid darkgray; width: 120%; position: relative; left: -10%;"  />
+			</div>
+			
 			
 		</div>
 		<!--页脚-->
 		<div data-role="footer" data-position="fixed">
          <div data-role="navbar">
            <ul>
-           	<li class="scPay"><a href="addLocation.html" data-transition="none"><p>添加新地址</p></a></li>                 
+           	<li class="scPay"><a href="addLocation.html" data-transition="none" data-ajax=false><p id="changeLoAddLocat">添加新地址</p></a></li>                 
            </ul>
          </div>
 		</div>

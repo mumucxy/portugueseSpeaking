@@ -9,7 +9,10 @@
 		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
 		<link rel="stylesheet" href="../css/totalStyle.css" />
 		<link rel="stylesheet" href="../css/mainSty.css" />
-
+		
+	     <script src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
+       
 </head>
 <body>
 	<div id="myPage" data-role="page"  >
@@ -44,16 +47,12 @@
 			<div data-role="header" data-position="fixed" class="headSty">
 				<!--语言选择-->
 				<a class="ui-btn-left language">简体</a>
-				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
-					<div data-role="content" data-theme="a">
-						<ul>
-							<li><a href="#">简体</a></li>
-							<li><a href="#">繁体</a></li>
-							<li><a href="#">Português|</a></li>
-							<li><a href="#">English</a></li>
-						</ul>
-					</div>
-				</div>
+				<ul class="languageShow">
+					<li>简体</li>
+					<li>繁體</li>
+					<li>Português|</li>
+					<li>English</li>
+				</ul>
 				<!--页面主题-->
 				<h1>食品</h1>
 				<!--食品分类-->
@@ -106,8 +105,7 @@
 			</div>	
 
 	</div>
-			<script src="../js/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
-        <script src="../js/totalAct.js"></script>
+    <script src="../js/totalAct.js"></script>
+    <script src="../js/foodAct.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

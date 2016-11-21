@@ -1,7 +1,7 @@
 $(function(){
-//	window.onload=function(){
-//		$("body").show();
-//	}
+	window.onload=function(){
+		$("body").show();
+	}
 	//语言选择
 	$(".language").click(function() {
 		if ($(".languageShow").is(":hidden")) {

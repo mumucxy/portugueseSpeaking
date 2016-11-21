@@ -1,26 +1,21 @@
-.addProFile input{
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	cursor: pointer;
-	background-color: rgba(255,255,255,0);
-	opacity: 0;
-	filter: alpha(opacity=0);/*IE滤镜，透明度50%*/
-    -moz-opacity:0; /*Firefox私有，透明度50%*/
-    opacity:0;/*其他，透明度50%*/
-	height: 10em;
+.addProFile  {
+  position: relative; overflow: hidden; 
+  
 }
+.addProFile input {
+    position: absolute; left: 0px; top: 2em; opacity: 0; -ms-filter: 'alpha(opacity=0)'; 
+}
+.addProFile :hover {
+   
+}
+
 .addProFile {
 	text-align: center;
 }
 .addProFile label{
 	text-align: left;
 }
-.addProFile img{
-   
-   position: relative;
-   top: -7em;  
-}
+
 /*leaveWord1*/
 #leaveWordNav{
 	height: 2.3em;

@@ -17,20 +17,16 @@
 		<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
 			<h1>添加收货地址</h1>
 			<!--语言选择-->
-				<a class="ui-btn-right language" style="margin-top: 0.3em;">简体</a>
-				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
-					<div data-role="content" data-theme="a">
-						<ul>
-							<li><a href="#">简体</a></li>
-							<li><a href="#">繁体</a></li>
-							<li><a href="#">Português|</a></li>
-							<li><a href="#">English</a></li>
-						</ul>
-					</div>
-				</div>
+				<a class="ui-btn-right language">简体</a>
+				<ul class="languageShow" style="position: fixed; right: 0;left: auto;">
+					<li>简体</li>
+					<li>繁體</li>
+					<li>Português|</li>
+					<li>English</li>
+				</ul>
 		</div>
 		<!--内容-->
-		<div class="ui-content" role="main">
+		<div id="addLocation" class="ui-content" role="main" style="margin-top: 2em;">
 			<label>收货人：</label>
 			<input type="text" />
 			<label>联系电话：</label>
@@ -42,7 +38,7 @@
 		<div data-role="footer" data-position="fixed">
          <div data-role="navbar">
            <ul>
-           	<li class="scPay"><a href="changeLocation.html" data-transition="none" data-ajax="false"><p>确定</p></a></li>                 
+           	<li class="scPay sure"><a href="changeLocation.html" data-transition="none" data-ajax="false"><p>确定</p></a></li>                 
            </ul>
          </div>
 		</div>

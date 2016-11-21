@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
 		<link rel="stylesheet" href="../css/totalStyle.css" />
 		<link rel="stylesheet" href="../css/mainSty.css" />
+       <script src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
 
 </head>
 <body>
@@ -19,40 +21,47 @@
 				<h1>Monchique</h1>
 				<!--会员登录-->
 				<a class="ui-btn-right member"><img src="../img/icon/user.png" /></a>
+				<!--已登陆-->
+				<ul class="havedLogin">
+					<li><a href="../z_personal/common/userMessage.html" data-ajax=false>我的主页</a></li>
+					<li><a href="../z_food/shoppingCart.html" data-ajax="false">我的购物车</a></li>
+					<li><a href="../z_personal/common/myMesssage.html" data-ajax=false>我的信息</a></li>
+				</ul>
+				<!--未登陆-->
 				<div data-role="dialog" class="memberShow" style="display: none; z-index: 3000;">
 					<div data-role="header" data-theme="b">
 						<h1>登录</h1>
 					</div>
 					<div data-role="content" data-theme="a">
 						<h5 style="text-align: center;">您还未登录，请问是否马上登录？</h5>
-						<div style="text-align: center;"><a href="#" data-role="button" data-theme="a">马上去登录</a> </div>
+						<div style="text-align: center;"><a href="../z_login/login.html" data-ajax=false data-role="button" data-theme="a">马上去登录</a> </div>
 					</div>
 				</div>
 			</div>
 		<!--内容-->
-		<div class="ui-content" role="main">
+		<div class="ui-content" role="main" style=" position:absolute ; top: 2.7em;">
 			<div class="fmC"><img src="../img/food/p1.jpg"/></div><hr/>
 			<div class="fmT">
-				<p>Monchique</p><p class="fmMore">(商品標示號:35821)</p>
-				<img src="../img/food/star.png"/>
+				<p>Monchique</p><p class="fmMore">(<span>商品标示号：</span><span>35821</span>)</p>
+				<span><img src="../img/food/star.png"/></span>
 			</div>
-			<div class="fmP">￥99</div>
-			<div class="fmEx"><p>快递：免运费</p><p>库存：99</p><p>中国澳门</p></div>
+			<div class="fmP">￥<span>99</span></div>
+			<div class="fmEx"><p><span>快递：</span>免运费</p><p><span>库存：</span>99</p><p>中国澳门</p></div>
 			<hr/>
 			<div class="fmDet">
-			<p>产品类别：其他</p>
-			<p>产品品牌：</p>
-			<p>产品产地：</p>
-			<p>产品价格$:</p>
-			<p>产品尺寸：</p>
-			<p>生产厂家</p>
-			<p>上架时间：1970-01-01</p>
-			<p>产品介绍：</p>
+			<p><span>产品类别：</span>其他</p>
+			<p><span>产品品牌：</span></p>
+			<p><span>产品产地：</span></p>
+			<p><span>产品价格$：</span></p>
+			<p><span>产品尺寸：</span></p>
+			<p><span>生产厂家：</span></p>
+			<p><span>上架时间：</span>1970-01-01</p>
+			<p><span>产品介绍：</span></p>
 			</div>
-			<p style="text-align: center;">企业介绍</p>
+			<p style="text-align: center;" id="fmIntro">企业介绍</p>
 			<div class="fmMess"></div>
 			<hr />
-			<p style="text-align: center;">产品详情</p><hr />
+			<p style="text-align: center;" id="fmDetail">产品详情</p><hr />
 			<div class="fmMess"><img src="../img/food/p1.jpg"/></div>
 			
 			
@@ -60,16 +69,16 @@
 		<!--页脚-->
 		<div data-role="footer" data-position="fixed">
          <div data-role="navbar">
-	           <ul >
+	           <ul style="height: 2.6em;" id="foodMessBuy">
 	           	<li><a href="connent.html" data-ajax= false>联系供应商</a></li>           		
-	           	<li><a href="shoppingCart.html" data-ajax= false>加入购物车</a></li>
+	           	<li><a href="" data-ajax= false>加入购物车</a></li>
 	           	<li><a href="../z_pay/orderAccout.html" data-ajax= false>直接购买</a></li>
 	           </ul>
 	         </div>
 		</div>
-	
-		<script src="../js/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
-        <script src="../js/totalAct.js"></script>
+	    <script src="../js/totalAct.js"></script>
+       <script src="../js/foodMessage.js" type="text/javascript" charset="utf-8"></script>
+		
+        
 </body>
 </html>

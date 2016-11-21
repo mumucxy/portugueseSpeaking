@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -8,29 +9,32 @@
 		<link rel="stylesheet" href="../css/themes/jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
 		<link rel="stylesheet" href="../css/totalStyle.css" />
-		<link rel="stylesheet" type="text/css" href="../css/homeSty.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/homeSty.css" />
+		<script src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>
 	</head>
+
 	<body>
-		<div id="myPage" data-role="page"  >
+		<div id="myPage" data-role="page">
 			<!--页头-->
 			<div data-role="header" data-position="fixed" class="headSty">
 				<!--语言选择-->
 				<a class="ui-btn-left language">简体</a>
 				<ul class="languageShow">
 					<li>简体</li>
-					<li>繁体</li>
+					<li>繁體</li>
 					<li>Português|</li>
 					<li>English</li>
 				</ul>
 				<!--页面主题-->
-				<h1>主页</h1>
+				<h1>首页</h1>
 				<!--会员登录-->
 				<a href="#" class="ui-btn-right member"><img src="../img/icon/user.png" /></a>
 				<!--已登陆-->
 				<ul class="havedLogin">
-					<li><a href="#">我的主页</a></li>
+					<li><a href="../z_personal/common/userMessage.html" data-ajax=false>我的主页</a></li>
 					<li><a href="../z_food/shoppingCart.html" data-ajax="false">我的购物车</a></li>
-					<li><a href="#">我的信息</a></li>
+					<li><a href="../z_personal/common/myMesssage.html" data-ajax=false>我的信息</a></li>
 				</ul>
 				<!--未登陆-->
 				<div data-role="dialog" class="memberShow" style="display: none; z-index: 3000;">
@@ -39,7 +43,7 @@
 					</div>
 					<div data-role="content" data-theme="a">
 						<h5 style="text-align: center;">您还未登录，请问是否马上登录？</h5>
-						<div style="text-align: center;"><a href="../z_login/login.html" data-ajax= false data-role="button" data-theme="a">马上去登录</a> </div>
+						<div style="text-align: center;"><a href="../z_login/login.html" data-ajax=false data-role="button" data-theme="a">马上去登录</a> </div>
 					</div>
 				</div>
 			</div>
@@ -47,66 +51,70 @@
 			<div class="ui-content" role="main">
 
 				<div id="homeCover"><img src="../img/home/homeCover.png" /></div>
-				<div class="homeCon">					
+				<div class="homeCon">
 					<div class="homeConCo">
 						<a href="../z_food/food.html" data-transition="none" data-ajax=false>
-						<div class="foo">
-							<label>Base de Dados dos Produtos Alimentares dos  </label>
-						</div></a>
+							<div class="foo">
+								<label>葡语国家食品资料库</label>
+							</div>
+						</a>
 						<a href="#">
-						<div class="peo">
-							<label>Base de Dados de Profissionais Qualificados em Chinês e Português</label>
-						</div></a>
+							<div class="peo">
+								<label>中葡双语人才库</label>
+							</div>
+						</a>
 					</div>
 					<div class="homeConCo">
 						<a href="#">
-						<div class="exh">
-							<label>Fornecedores de Serviços Profissionais</label>
-						</div></a>
+							<div class="exh">
+								<label>专业服务供应商</label>
+							</div>
+						</a>
 						<a href="#">
-						<div class="eco">
-							<label>Informação sobre Convenções e Exposições</label>
-						</div></a>
+							<div class="eco">
+								<label>经贸信息</label>
+							</div>
+						</a>
 					</div>
 				</div>
 				<div></div>
 			</div>
 			<!--页脚-->
-			<div data-role="footer" data-position="fixed">			
+			<div data-role="footer" data-position="fixed">
 				<!--底部模块导航-->
 				<div data-role="navbar">
 					<ul class="iconSty">
 						<li>
 							<a href="../z_food/food.html" data-transition="none" data-ajax=false>
-							<img src="../img/icon/footerFood.png">	
+								<img src="../img/icon/footerFood.png">
 							</a>
 						</li>
 						<li>
 							<a href="#" data-transition="none" data-ajax=false>
-							<img src="../img/icon/footerPeople.png">	
+								<img src="../img/icon/footerPeople.png">
 							</a>
 						</li>
 						<li class="footerHome">
 							<a href="index.html">
-							<img src="../img/icon/footerHome.png">	
-							</a>
-						</li>
-						<li>
-							<a href="#"data-transition="none"  >
-								<img src="../img/icon/footerFactory.png"/>
+								<img src="../img/icon/footerHome.png">
 							</a>
 						</li>
 						<li>
 							<a href="#" data-transition="none">
-							<img src="../img/icon/footerNew.png"/>
+								<img src="../img/icon/footerFactory.png" />
+							</a>
+						</li>
+						<li>
+							<a href="#" data-transition="none">
+								<img src="../img/icon/footerNew.png" />
 							</a>
 						</li>
 					</ul>
 				</div>
-			</div>		
-		</div>		
+			</div>
+		</div>
+		<script src="../js/totalAct.js"></script>
+		<script src="../js/homeAct.js"></script>
 	</body>
-		<script src="../js/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
-        <script src="../js/totalAct.js"></script>
+
 </html>

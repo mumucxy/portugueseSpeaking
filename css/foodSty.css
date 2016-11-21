@@ -66,9 +66,12 @@ form{
 }
 /*foodmore*/
 #foodmoreTwoLevel{
-	height: 2.3em;
+	z-index: 1;
+   position:fixed;
+	top: 2.7em;
+	height: 2.5em;
 	width: 100%;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,1);
 	white-space: nowrap;
 	overflow: hidden;
 	overflow-x: scroll; /* 1 */
@@ -79,18 +82,30 @@ form{
 	&::-webkit-scrollbar {
 	display: none;
 	}
+	
 }
 .foodmoreTwoLevelContainer div{
 	display: inline-block;
-    height: 2.3em;
+    height: 2.5em;
     text-align: center;
     line-height: 2em;
     width: 20%;
 
 }
+#foodMoreTable{
+	z-index: 2;
+	position:fixed;
+	top: 4.5em;
+	width: 100%;
+}
+.foodCon{
+	margin-top: 6em;
+}
 dd{
 	-webkit-margin-start: 0;
+	
 	margin-bottom: 5%;
+	
 }
 .fooMoreMess1{
 	display: inline-block;
@@ -113,6 +128,7 @@ dd{
 	width: 28%;
 	color: darkgray;
 }
+
 /*shoppingCart*/
 /*内容*/
 .sCartMess{

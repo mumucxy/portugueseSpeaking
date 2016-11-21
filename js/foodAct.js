@@ -1,4 +1,149 @@
 $(function() {
+	window.onload=function(){
+		$("body").show();
+		changeLanguage();
+	}
+	$(".languageShow li").click(function(){
+		changeLanguage();
+	});
+	//多语言转换
+	function changeLanguage(){
+		if(getCookie("language") == "简体"){
+			//登陆
+			$(".memberShow h1").empty();
+			$(".memberShow h1").append("登录");
+			$(".memberShow h5").empty();
+			$(".memberShow h5").append("您还未登录，请问是否马上登录？");
+			$(".memberShow a").empty();
+			$(".memberShow a").append("马上去登录");
+			$(".havedLogin li:eq(0) a").empty();
+			$(".havedLogin li:eq(0) a").append("我的主页");
+			$(".havedLogin li:eq(1) a").empty();
+			$(".havedLogin li:eq(1) a").append("我的购物车");
+			$(".havedLogin li:eq(2) a").empty();
+			$(".havedLogin li:eq(2) a").append("我的信息");
+			//food
+			$(".language").empty();
+			$(".language").append("简体");
+			$(".headSty h1").empty();
+			$(".headSty h1").append("食品");
+			$(".ui-content h3").empty();
+			$(".ui-content h3").append("最新上架");
+			$("#foodMoreTable li:eq(0) a").empty();
+			$("#foodMoreTable li:eq(0) a").append("价格");
+			$("#foodMoreTable li:eq(1) a").empty();
+			$("#foodMoreTable li:eq(1) a").append("上架时间");
+			$("#foodMoreTable li:eq(2) a").empty();
+			$("#foodMoreTable li:eq(2) a").append("产地");
+			//shoppingCart
+			$("#shoppingCarPay li:eq(0) label").empty();
+			$("#shoppingCarPay li:eq(0) label").append("全选");
+			$("#shoppingCarPay li:eq(1) span:eq(0)").empty();
+			$("#shoppingCarPay li:eq(1) span:eq(0)").append("合计");
+			$("#shoppingCarPay li:eq(2) label").empty();
+			$("#shoppingCarPay li:eq(2) p").append("结算");
+		
+		}else if(getCookie("language") == "繁體"){
+			$(".memberShow h1").empty();
+			$(".memberShow h1").append("登入");
+			$(".memberShow h5").empty();
+			$(".memberShow h5").append("您還未登錄，請問是否馬上登入？");
+			$(".memberShow a").empty();
+			$(".memberShow a").append("馬上去登入");
+			$(".havedLogin li:eq(0) a").empty();
+			$(".havedLogin li:eq(0) a").append("我的主頁");
+			$(".havedLogin li:eq(1) a").empty();
+			$(".havedLogin li:eq(1) a").append("我的購物車");
+			$(".havedLogin li:eq(2) a").empty();
+			$(".havedLogin li:eq(2) a").append("我的資訊");
+			$(".language").empty();
+			$(".language").append("繁體");
+			$(".headSty h1").empty();
+			$(".headSty h1").append("食品");
+			$(".ui-content h3").empty();
+			$(".ui-content h3").append("最新上架");
+			$("#foodMoreTable li:eq(0) a").empty();
+			$("#foodMoreTable li:eq(0) a").append("價格");
+			$("#foodMoreTable li:eq(1) a").empty();
+			$("#foodMoreTable li:eq(1) a").append("上架時間");
+			$("#foodMoreTable li:eq(2) a").empty();
+			$("#foodMoreTable li:eq(2) a").append("產地");
+			//shoppingCart
+			$("#shoppingCarPay li:eq(0) label").empty();
+			$("#shoppingCarPay li:eq(0) label").append("全選");
+			$("#shoppingCarPay li:eq(1) span:eq(0)").empty();
+			$("#shoppingCarPay li:eq(1) span:eq(0)").append("合計");
+			$("#shoppingCarPay li:eq(2) label").empty();
+			$("#shoppingCarPay li:eq(2) p").append("結算");
+		
+		}else if(getCookie("language") == "Português|"){
+			$(".memberShow h1").empty();
+			$(".memberShow h1").append("Login");
+			$(".memberShow h5").empty();
+			$(".memberShow h5").append("Se você ainda não entrou imediatamente, por favor?");
+			$(".memberShow a").empty();
+			$(".memberShow a").append("Vou Logar");
+			$(".havedLogin li:eq(0) a").empty();
+			$(".havedLogin li:eq(0) a").append("A minha home page");
+			$(".havedLogin li:eq(1) a").empty();
+			$(".havedLogin li:eq(1) a").append("MEU carrinho de Compras");
+			$(".havedLogin li:eq(2) a").empty();
+			$(".havedLogin li:eq(2) a").append("A minha Mensagem");
+			$(".language").empty();
+			$(".language").append("Português|");
+			$(".headSty h1").empty();
+			$(".headSty h1").append("Alimentares");
+			$(".ui-content h3").empty();
+			$(".ui-content h3").append("Produtos Recém-ChegadosMais");
+		    $("#foodMoreTable li:eq(0) a").empty();
+			$("#foodMoreTable li:eq(0) a").append("Preço");
+			$("#foodMoreTable li:eq(1) a").empty();
+			$("#foodMoreTable li:eq(1) a").append("A Hora do recreio");
+			$("#foodMoreTable li:eq(2) a").empty();
+			$("#foodMoreTable li:eq(2) a").append("De Origem");
+			//shoppingCart
+			$("#shoppingCarPay li:eq(0) label").empty();
+			$("#shoppingCarPay li:eq(0) label").append("Select");
+			$("#shoppingCarPay li:eq(1) span:eq(0)").empty();
+			$("#shoppingCarPay li:eq(1) span:eq(0)").append("Total");
+			$("#shoppingCarPay li:eq(2) label").empty();
+			$("#shoppingCarPay li:eq(2) p").append("Liquidação");
+			
+		}else if(getCookie("language") == "English"){
+			$(".memberShow h1").empty();
+			$(".memberShow h1").append("Sign in");
+			$(".memberShow h5").empty();
+			$(".memberShow h5").append("You have not logged in, may I ask you to log in immediately?");
+			$(".memberShow a").empty();
+			$(".memberShow a").append("Sign on right now.");
+			$(".havedLogin li:eq(0) a").empty();
+			$(".havedLogin li:eq(0) a").append("My home page");
+			$(".havedLogin li:eq(1) a").empty();
+			$(".havedLogin li:eq(1) a").append("My shopping cart");
+			$(".havedLogin li:eq(2) a").empty();
+			$(".havedLogin li:eq(2) a").append("My message");
+			$(".language").empty();
+			$(".language").append("English");
+			$(".headSty h1").empty();
+			$(".headSty h1").append("Food");
+			$(".ui-content h3").empty();
+			$(".ui-content h3").append("New Arrivalsmore");
+		    $("#foodMoreTable li:eq(0) a").empty();
+			$("#foodMoreTable li:eq(0) a").append("Price");
+			$("#foodMoreTable li:eq(1) a").empty();
+			$("#foodMoreTable li:eq(1) a").append("Time on shelves");
+			$("#foodMoreTable li:eq(2) a").empty();
+			$("#foodMoreTable li:eq(2) a").append("Place of Origin");
+			//shoppingCart
+			$("#shoppingCarPay li:eq(0) label").empty();
+			$("#shoppingCarPay li:eq(0) label").append("Select");
+			$("#shoppingCarPay li:eq(1) span:eq(0)").empty();
+			$("#shoppingCarPay li:eq(1) span:eq(0)").append("Total");
+			$("#shoppingCarPay li:eq(2) p").empty();
+			$("#shoppingCarPay li:eq(2) p").append("Settlement");
+		
+		}
+	}
 	//匿名闭包函数
 	//食品排序筛选
 	(function() {
@@ -208,13 +353,11 @@ $(function() {
 		    if (c_end==-1) c_end=document.cookie.length
 		    return unescape(document.cookie.substring(c_start,c_end));
 		    } 
-		  }else{
-		  	location.href="../z_food/shoppingCart.html"
 		  }
 		return ""
 		}
-		
-
+	
+    
 });
 
 

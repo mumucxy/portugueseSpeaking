@@ -19,42 +19,49 @@
 				<h1>THOQUINO</h1>
 				<!--会员登录-->
 				<a class="ui-btn-right member"><img src="../img/icon/user.png" /></a>
+				<!--已登陆-->
+				<ul class="havedLogin">
+					<li><a href="../z_personal/common/userMessage.html" data-ajax=false>我的主页</a></li>
+					<li><a href="../z_food/shoppingCart.html" data-ajax="false">我的购物车</a></li>
+					<li><a href="../z_personal/common/myMesssage.html" data-ajax=false>我的信息</a></li>
+				</ul>
+				<!--未登陆-->
 				<div data-role="dialog" class="memberShow" style="display: none; z-index: 3000;">
 					<div data-role="header" data-theme="b">
 						<h1>登录</h1>
 					</div>
 					<div data-role="content" data-theme="a">
 						<h5 style="text-align: center;">您还未登录，请问是否马上登录？</h5>
-						<div style="text-align: center;"><a href="#" data-role="button" data-theme="a">马上去登录</a> </div>
+						<div style="text-align: center;"><a href="../z_login/login.html" data-ajax=false data-role="button" data-theme="a">马上去登录</a> </div>
 					</div>
 				</div>
 			</div>
 		<!--内容-->
-		<div class="ui-content" role="main">
+		<div class="ui-content" style="margin-top: 2em;" role="main">
 			<!--供应商信息-->
            <div id="supplierMess">
            	<div><p><img src="../img/food/supplierMess.png"/></p>
            		  <p>供应商信息</p></div>
-           	<div><p>国家/地区：中国澳门</p>
-           		<p>企业类型：代理商</p>
-           		<p>成立年份：1970</p>
-           		<p>雇佣人数：</p>
-           		<p>业务性质：</p>
-           		<p>主营产品</p>
+           	<div><p><span>国家/地区</span>：中国澳门</p>
+           		<p><span>企业类型</span>：代理商</p>
+           		<p><span>成立年份</span>：1970</p>
+           		<p><span>雇佣人数</span>：</p>
+           		<p><span>业务性质</span>：</p>
+           		<p><span>主营产品</span>：</p>
            	</div>
            </div>
 		   <div id="supplierCon" >
-		   	<div><p>联系人：</p>
-           		<p>联系电话：66837071</p>
-           		<p>传真号码：853-28410348</p>
-           		<p>电子邮件：</p>
+		   	<div><p><span>联系人</span>：</p>
+           		<p><span>联系电话</span>：66837071</p>
+           		<p><span>传真号码</span>：853-28410348</p>
+           		<p><span>电子邮件</span>：</p>
            		<p>ken.lok@sennaplena.com</p>
 		   	</div>
            	<div><p><img src="../img/food/supplierCon.png"/></p>
            		  <p>联系方式</p></div>
 		   </div>
 			<!--发送邮件给供应商-->
-			<form>
+			<form id="connectSendEmail">
 				<label>您的电邮地址:</label><input type="text" />
 				<label>收件人：</label><input type="text" />
 				<label>查询内容：</label>
@@ -73,12 +80,12 @@
 			      <label>小批量订购</label>
 			     <fieldset data-role="controlgroup">
 			        <label for="Cinterest">有兴趣</label>
-			        <input type="radio" name="" id="Cinterest" value="Cinterest">
+			        <input type="radio" name="haveInterest" id="Cinterest" value="Cinterest">
 			        <label for="Cuninterest">不感兴趣</label>
-			        <input type="radio" name="" id="Cuninterest" value="Cuninterest">	
+			        <input type="radio" name="haveInterest" id="Cuninterest" value="Cuninterest">	
 			      </fieldset> 
 			      <label>初次订货量:</label><input type="text" value="1"/>
-			      <a href="#" data-rel="back"><input type="submit" value="提交"/></a>
+			      <input type="submit" value="submit"/>
 			</form>
 		</div>
 
@@ -86,5 +93,6 @@
 		<script src="../js/jquery.min.js"></script>
         <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js" ></script>
         <script src="../js/totalAct.js"></script>
+        <script src="../js/connent.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
