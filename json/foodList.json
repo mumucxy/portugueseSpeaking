@@ -1,0 +1,40 @@
+{
+	"foodListOne": [
+		{
+		  "OneName":"酒",
+		  "foodListTwo":[
+			  {
+			     "TwoName":"紅酒"
+			  },{
+			     "TwoName":"白酒"
+			  },{
+			     "TwoName":"啤酒"
+			  },{
+			     "TwoName":"烈酒"
+			  }
+		  ]
+		},{
+		  "OneName":"乳製品",
+		  "foodListTwo":[
+			  {
+			     "TwoName":"牛奶"
+			  },{
+			     "TwoName":"乳酪"
+			  },{
+			     "TwoName":"酸奶"
+			  }
+		  ]
+		},{
+		  "OneName":"其他",
+		  "foodListTwo":[
+			  {
+			     "TwoName":"其他1"
+			  },{
+			     "TwoName":"其他2"
+			  },{
+			     "TwoName":"其他3"
+			  }
+		  ]
+		}
+	]
+}

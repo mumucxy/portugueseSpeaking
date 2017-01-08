@@ -12,7 +12,8 @@ body{
 	display: none;
 }
 .ui-content{
-	padding-top: 2.7em;
+	margin-top: 2.7em;
+	margin-bottom: 3em;
 }
 /*页头*/
 

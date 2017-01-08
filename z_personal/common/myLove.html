@@ -10,15 +10,14 @@
 		<link rel="stylesheet" href="../../css/totalStyle.css" />
 		<link rel="stylesheet" type="text/css" href="../../css/commonSty.css"/>
 		<script src="../../js/jquery.min.js"></script>
-        <script type="text/javascript" src="../../js/jquery.mobile-1.4.5.min.js" ></script>
-        	
+        <script type="text/javascript" src="../../js/jquery.mobile-1.4.5.min.js" ></script>       	
 </head>
 <body>
 		<div id="myPage" data-role="page">
 			<!--页头-->
 			<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
 				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../../css/themes/images/icons-png/carat-l-black.png" /></a>
-				<h1></h1>
+				<h1></h1>				
 				<!--语言选择-->
 				<a class="ui-btn-right language">简体</a>
 				<ul class="languageShow" style="position: fixed; right: 0;left: auto;">
@@ -29,14 +28,13 @@
 				</ul>
 			</div>
 			<!--内容-->
-			<div class="ui-content" role="main" >
+			<div class="ui-content" role="main">
 			<div class="commonCover">
 			<label><img src="../../img/user/userImg.jpg"/>
 				   <p>mumu</p>
 			</label>
 			</div>
-				<!--导航-->
-		     <div data-role="navbar" class="commonNav">
+			 <div data-role="navbar" class="commonNav">
 	           <ul >
 	           	<li><a href="userMessage.html" data-transition="none" data-ajax=false>账户</a></li>           		
 	           	<li><a href="myOrder.html"  data-transition="none" data-ajax=false >我的订单</a></li>
@@ -44,14 +42,29 @@
     <li><a href="myMesssage.html"  data-transition="none" data-ajax=false>留言信息</a></li>
 	           </ul>
 	         </div>
-	          <div style="padding: 10%;">
-	          	<div style="padding: 5%;" >
-	          	<p><span class="comUserName">用户名：</span>mumu</p>
-	          	<p><span class="comUserEmail">邮箱：</span>420199278@qq.com</p>
-	          	<p><span class="comUserID">身份：</span>普通用户</p>
-	          	</div>
-	          	<a href="userMessageChange.html" data-transition="none" data-ajax=false><button class="ComChange">修改资料</button></a>
-	          </div>
+	         <div id="myLoveContent">
+	         	<div class="myLoveList">
+	         		<p><img src="../../img/food/p1.jpg"/></p>
+	         		<p><label>珍藏品质酒</label>
+	         		   <label>￥99</label>
+	         		</p>
+	         		<p><button class="myLoveDel">删除</button></p>
+	         	</div>
+	         	<div class="myLoveList">
+	         		<p><img src="../../img/food/p1.jpg"/></p>
+	         		<p><label>珍藏品质酒</label>
+	         		   <label>￥99</label>
+	         		</p>
+	         		<p><button class="myLoveDel">删除</button></p>
+	         	</div>
+	         	<div class="myLoveList">
+	         		<p><img src="../../img/food/p1.jpg"/></p>
+	         		<p><label>珍藏品质酒</label>
+	         		   <label>￥99</label>
+	         		</p>
+	         		<p><button class="myLoveDel">删除</button></p>
+	         	</div>
+	         </div>
 			</div>
 		<div data-role="footer" data-position="fixed">			
 				<!--底部模块导航-->
@@ -88,6 +101,5 @@
 		</div>
 <script src="../../js/totalAct.js"></script>	
 <script src="../../js/commonAct.js" type="text/javascript" charset="utf-8"></script>
-
 </body>
 </html>

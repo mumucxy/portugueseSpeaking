@@ -2,10 +2,14 @@ $(function(){
 	window.onload=function(){
 		$("body").show();
 		changeLanguage();
+		//foodMessage导航固定
+	$("#fmIntro").position({top:100,left:0});
+	console.log("");
 	}
 	$(".languageShow li").click(function(){
 		changeLanguage();
 	});
+	
 	function changeLanguage(){
 			if(getCookie("language") == "简体"){
 			//登陆
@@ -277,4 +281,6 @@ $(function(){
 		}
 		
 	});
+	//ajax读取产品数据
+	
 });

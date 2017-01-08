@@ -41,7 +41,8 @@
   width: 100%;
 }
 .fmC img{
-  height: 13em;
+
+  width:100%;
 }
 .fmT{
 	height: 2.3em;
@@ -83,8 +84,9 @@
 	text-align: left;
 	margin-left: 0.5em;
 }
+
 .fmDet{
-	height: 18em;
+	
 	margin-left: 0.5em;
 	color: gray;
 }
@@ -94,6 +96,9 @@
 }
 .fmMess img{
 	width: 100%;
+}
+#foodMessList{
+
 }
 /*foodmore*/
 

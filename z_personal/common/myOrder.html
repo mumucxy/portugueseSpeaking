@@ -9,41 +9,44 @@
 		<link rel="stylesheet" href="../../css/jquery.mobile.structure-1.4.5.min.css" />
 		<link rel="stylesheet" href="../../css/totalStyle.css" />
 		<link rel="stylesheet" type="text/css" href="../../css/personalSty.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/commonSty.css"/>
        		<script src="../../js/jquery.min.js"></script>
         <script type="text/javascript" src="../../js/jquery.mobile-1.4.5.min.js" ></script>
-        <script src="../../js/totalAct.js"></script>		
+      
 </head>
 <body>
 		<div id="myPage" data-role="page">
 			<!--页头-->
 			<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
 				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../../css/themes/images/icons-png/carat-l-black.png" /></a>
-				<h1>我的订单</h1>
+				<h1></h1>
 				<!--语言选择-->
 				<a class="ui-btn-right language">简体</a>
-				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
-					<div data-role="content" data-theme="a">
-						<ul>
-							<li><a href="#">简体</a></li>
-							<li><a href="#">繁体</a></li>
-							<li><a href="#">Português|</a></li>
-							<li><a href="#">English</a></li>
-						</ul>
-					</div>
-				</div>
+				<ul class="languageShow" style="position: fixed; right: 0;left: auto;">
+					<li>简体</li>
+					<li>繁體</li>
+					<li>Português|</li>
+					<li>English</li>
+				</ul>
 			</div>
 			<!--内容-->
-			<div class="ui-content graybody" role="main" style="padding: 0; margin-top: 2.7em;">
-			  <!--导航-->
-		     <div data-role="navbar">
+			<div class="ui-content graybody" role="main">
+				<div class="commonCover">
+			<label><img src="../../img/user/userImg.jpg"/>
+				   <p>mumu</p>
+			</label>
+			</div>
+			<div data-role="navbar" class="commonNav">
 	           <ul >
-	           	<li><a href="userMessage.html" data-transition="none"data-ajax=false>账户</a></li>           		
-	           	<li><a href="myOrder.html"  data-transition="none" >我的订单</a></li>
-	           	<li><a href=""  data-transition="none">我的收藏</a></li>
+	           	<li><a href="userMessage.html" data-transition="none" data-ajax=false>账户</a></li>           		
+	           	<li><a href="myOrder.html"  data-transition="none" data-ajax=false >我的订单</a></li>
+	           	<li><a href="myLove.html"  data-transition="none" data-ajax=false>我的收藏</a></li>
+    <li><a href="myMesssage.html"  data-transition="none" data-ajax=false>留言信息</a></li>
 	           </ul>
 	         </div>
+			
 	         <!--我的订单-->
-	         <div class="myOrderList">
+	         <div class="myOrderList" >
 	         <label>
 	         	<img src="../../css/themes/images/icons-png/grid-black.png"/>
 	         	<span>20151212001436</span>
@@ -128,6 +131,7 @@
 				</div>
 			</div>
 		</div>
-	
+	  <script src="../../js/totalAct.js"></script>		
+	  <script src="../../js/commonAct.js" type="text/javascript" charset="utf-8"></script>
        
 </body>

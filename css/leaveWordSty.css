@@ -1,23 +1,37 @@
-#leaveWordNav{
-	height: 2.3em;
-	width: 100%;
-	background-color: rgba(255,255,255,0.7);
-	white-space: nowrap;
-	overflow: hidden;
-	overflow-x: scroll; /* 1 */
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
-	-webkit-overflow-scrolling: touch; /* 2 */
-	text-align: justify; /* 3 */
-	&::-webkit-scrollbar {
-	display: none;
-	}
+/*leaveWordMore*/
+#leaveWorMorHead p{
+	text-align: center;
+	margin: 0;
 }
-.leaveWordNavTwoLevelContainer div{
-	display: inline-block;
-    height: 2.3em;
-    text-align: center;
-    line-height: 2em;
-    width: 25%;
-
+#leaveWorMorHead img{
+	width: 4em;
+	height: 4em;
+	border-radius: 90px;
+}
+.LeaWorMorBackgro{
+	background-color: #f8f8f8;
+	margin: 5%;
+}
+#leaveWorMorTitle{
+	height: 2em;
+}
+#leaveWorMorTitle label{
+	float: left;
+	height: 2em;
+	line-height: 2em;
+	margin-left: 5%;
+}
+#leaveWorMorContent{
+	padding: 2%;
+}
+#leaveWorMorOther{
+	padding: 2%;
+}
+#leaveWorMorOther p{
+	margin: 0;
+	margin-bottom: 1%;
+}
+#leaveWorMorTime{
+	padding-right: 6%;
+	text-align: right;
 }

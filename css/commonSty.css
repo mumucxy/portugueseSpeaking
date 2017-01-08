@@ -1,0 +1,215 @@
+/*公共样式修改*/
+.ui-content{
+	margin-top: 0;
+	padding: 0;
+}
+.ui-page-theme-a .ui-bar-inherit{
+	background-color: rgba(0,0,0,0.03);
+	border: 0;
+}
+.headSty .ui-btn-right {
+	background-color: rgba(0,0,0,0);
+	
+}
+.headSty .ui-btn-left{
+	background-color: rgba(0,0,0,0);
+	
+}
+/*mainCommon*/
+.commonCover{
+	background: url(../img/user/commonCover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 12em;
+	
+}
+.commonCover label{
+	text-align: center;
+	position: relative;
+	top: 4em;
+	
+}
+.commonCover label img{
+width: 5em;
+height: 5em;
+border-radius: 90px;
+}
+.commonCover label p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+#commonHead{
+	padding-left: 5%;
+	padding-right: 5%;
+	position: relative;
+	top: -3em;
+}
+#commonHead label{
+	margin-left: 5%;
+	margin-right: 5%;
+	float:left;
+}
+#commonHead label:nth-child(1){
+	width:15% ;
+	text-align: center;
+}
+#commonHead label:nth-child(2){
+	width: 40%;
+	text-align: center;
+}
+#commonHead label:nth-child(3){
+	width: 15%;
+	text-align: center;
+}
+#commonHead label p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+#commonHead img{
+position:relative ;
+top: -2em;
+width: 10em;
+height: 10em;
+border-radius: 90px;
+}
+#commonHead label:nth-child(2) p{
+	color: black;
+	font-weight: 500;
+	font-size: 1.2em;
+	position: relative;
+	top: -1em;
+}
+.mainCommonLine p{
+	margin: 9.5%;
+	margin-bottom: 5%;
+	border: 1px solid gainsboro;
+	border-radius: 10px;
+	position: relative;
+	top: -5em;
+	float: left;
+	width: 30%;
+	height: 5em;
+	text-align: center;
+	color: gray;
+	
+}
+.mainCommonLine p span{
+	
+	line-height: 5em;
+	position: relative;
+	top: 1em;
+}
+#mainCommonFirstLine p{
+	margin-bottom: 0;
+}
+#mainCommonFirstLine a:nth-child(1) p{
+	background: url(themes/images/icons-png/user-black.png);
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y: calc(40%);
+}
+#mainCommonFirstLine a:nth-child(2) p{
+	background: url(themes/images/icons-png/bars-black.png);
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y: calc(40%);
+}
+#mainCommonSecondLine a:nth-child(1) p{
+	background: url(themes/images/icons-png/heart-black.png);
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y: calc(40%);
+}
+#mainCommonSecondLine a:nth-child(2) p{
+	background: url(themes/images/icons-png/comment-black.png);
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y: calc(40%);
+}
+/*myLove*/
+.myLoveList{
+	padding-left: 5%;
+	padding-right: 2%;
+	clear: both;
+}
+.myLoveList p{
+	float: left;
+	height: 6em;
+	line-height: 3em;
+}
+.myLoveList p:nth-child(1) {
+	width: 20%;
+	line-height: 6em;
+}
+.myLoveList p:nth-child(1) img{
+	width:100% ;
+}
+.myLoveList p:nth-child(2){
+	margin-left: 5%;
+	width: 50%;
+}
+.myLoveList p:nth-child(2) label{
+	height: 1.5em;
+}
+.myLoveList p:nth-child(2) label:nth-child(2){
+	color: red;
+}
+.myLoveList p:nth-child(3){
+	margin-left: 0%
+}
+/*myMessage*/
+.myMessList {
+	padding-left: 10%;
+	padding-right: 3%;
+}
+.myMessList p{
+	float: left;
+	height: 5em;
+}
+.myMessList p:nth-child(1){
+	margin: 0;
+ width: 10%;
+}
+.myMessList p:nth-child(1) label{
+	
+}
+.myMessList p:nth-child(1) label:nth-child(1){
+width: 1px;height: 7em;background-color: gainsboro; display: inline-block;
+}
+.myMessList p:nth-child(1) label:nth-child(2){
+  width: 1em;
+  height: 1em;
+  background-color: #DAE9EE;
+  display: inline-block;
+  border-radius: 90px;
+  position: relative;
+  left: -0.8em;
+  top: -2.5em;
+}
+.myMessList p:nth-child(2){
+	width: 60%;
+}
+.myMessList p:nth-child(2) label:nth-child(1){
+	font-size:1.1em;
+}
+.myMessList p:nth-child(3){
+	margin-left: 5%;
+	width: 25%;
+}
+#replyMess{
+	padding: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

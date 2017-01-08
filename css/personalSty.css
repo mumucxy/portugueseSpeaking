@@ -91,17 +91,106 @@
 	text-align: right;
 }
 
+/*supplier addProduct*/
+#foodListOne{
+	position: absolute;
+	top: 13em;
+
+}
+#foodListOne ul{
+	border-radius:10px;
+	box-shadow:0px 0px  10px #aaaaaa;
+	padding: 0;
+	width: 14.1em;
+	margin-left:20%;
+}
+#foodListOne li{
+	width:14em ;
+	text-align: center;
+	border: 1px solid #dae9ee;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;	
+}
+#foodListOne li:first-child{
+	border-radius: 10px 10px 0px 0px;
+	
+}
+#foodListOne li:last-child{
+	border-radius: 0px 0px 10px 10px;
+}
 
 
+#foodListTwo{
+	position: absolute;
+	top: 17em;
 
+}
+#foodListTwo ul{
+	border-radius:10px;
+	box-shadow:0px 0px  10px #aaaaaa;
+	padding: 0;
+	width: 14.1em;
+	margin-left:20%;
+}
+#foodListTwo li{
+	width:14em ;
+	text-align: center;
+	border: 1px solid #dae9ee;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;	
+}
+#foodListTwo li:first-child{
+	border-radius: 10px 10px 0px 0px;
+	
+}
+#foodListTwo li:last-child{
+	border-radius: 0px 0px 10px 10px;
+}
+/*myConpany*/
+#ConpayCountry {
+	position: absolute;
+	top: 20em;
 
-
-
-
-
-
-
-
+}
+#ConpayCountry ul{
+	border-radius:10px;
+	box-shadow:0px 0px  10px #aaaaaa;
+	padding: 0;
+	width: 14.1em;
+	margin-left:20%;
+}
+#ConpayCountry li{
+	width:14em ;
+	text-align: center;
+	border: 1px solid #dae9ee;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;	
+}
+#ConpayCountry li:first-child{
+	border-radius: 10px 10px 0px 0px;
+	
+}
+#ConpayCountry li:last-child{
+	border-radius: 0px 0px 10px 10px;
+}
+/*conpanyMessage*/
+.conpanyMessGray label{
+	color:gray;
+}
+.conpanyMessGray p{
+	font-weight: 300;
+	font-size:1.1em;
+	color: black;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.conpanyMessGray hr{
+	margin-bottom: 5%;
+}
 
 
 

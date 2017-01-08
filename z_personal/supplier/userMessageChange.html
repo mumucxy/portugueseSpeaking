@@ -1,76 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="utf-8">
+
+	<head>
+		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>中国-葡语国家经贸合作及人才信息网</title>
 		<link rel="stylesheet" href="../../css/themes/cP.css" />
 		<link rel="stylesheet" href="../../css/themes/jquery.mobile.icons.min.css" />
 		<link rel="stylesheet" href="../../css/jquery.mobile.structure-1.4.5.min.css" />
 		<link rel="stylesheet" href="../../css/totalStyle.css" />
+		<script src="../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
 
-</head>
-<body>
+	<body>
 		<div id="myPage" data-role="page">
 			<!--页头-->
 			<div data-role="header" data-position="fixed" data-add-black-btn="true" class="headSty">
-				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../css/themes/images/icons-png/carat-l-black.png" /></a>
+				<a href="#" class="ui-btn-left" data-role="button" data-rel="back"><img src="../../css/themes/images/icons-png/carat-l-black.png" /></a>
 				<h1>账户资料</h1>
 				<!--语言选择-->
 				<a class="ui-btn-right language">简体</a>
-				<div data-role="dialog" class="languageShow" style="display: none; z-index: 3000;">
-					<div data-role="content" data-theme="a">
-						<ul>
-							<li><a href="#">简体</a></li>
-							<li><a href="#">繁体</a></li>
-							<li><a href="#">Português|</a></li>
-							<li><a href="#">English</a></li>
-						</ul>
-					</div>
-				</div>
+				<ul class="languageShow" style="position: fixed; right: 0;left: auto;">
+					<li>简体</li>
+					<li>繁體</li>
+					<li>Português|</li>
+					<li>English</li>
+				</ul>
 			</div>
 			<!--内容-->
-			<div class="ui-content" role="main" style="padding: 0;">
+			<div class="ui-content" role="main">
 				<!--导航-->
-		     <div data-role="navbar">
-	           <ul >
-	           	<li><a href="userMessage.html" data-transition="none">账户</a></li>           		
-	           	<li><a href="myConpany.html" data-transition="none" >企业</a></li>
-	           	<li><a href="myProduct.html" data-transition="none">发布</a></li>
-	           	<li><a href="leaveWord1.html">留言</a></li>
-	           	<li><a href="#">站内信</a></li>	    
-	           </ul>
-	         </div>
-	          <div style="padding: 10%;">
-	          	<form>
-	          		<label>用户名：</label>
-	          		<input type="text" placeholder="请输入用户名" />
-	          		<label>密码：</label>
-	          		<input type="text" placeholder="请输入密码"/>
-	          		<label>密码确认：</label>
-	          		<input type="text" placeholder="请重复输入密码"/>
-	          		<label>邮箱：</label>
-	          		<input type="text" placeholder="请输入邮箱"/>
-	          		<label>身份选择：</label>
-                    <fieldset data-role="fieldcontain">
-				        <select name="" id="" data-native-menu="false">
-				         <option value="">请选择身份</option>
-				         <option value="">普通用户</option>
-				         <option value="">中葡双语人才</option>
-				         <option value="">葡语食品供应商</option>
-				         <option value="">专业服务机构</option>
+				<div data-role="navbar" class="supplierNav">
+					<ul>
+						<li><a href="userMessage.html" data-transition="none" data-ajax=false>账户</a></li>
+						<li><a href="ConpanyMess.html" data-transition="none" data-ajax=false>企业</a></li>
+						<li><a href="myProduct.html" data-transition="none" data-ajax=false>发布</a></li>
+						<li><a href="leaveWord.html" data-ajax=false>留言</a></li>
 
-				        </select>
-				      </fieldset>
-	          	</form>
-	          	
-	          	<a href="userMessage.html"  data-transition="none"><button>修改资料</button></a>
-	          </div>
+					</ul>
+				</div>
+				<div style="padding: 10%;">
+					<form>
+						<label id="SuUserMessChaName">用户名：</label>
+						<input type="text" placeholder="your name" />
+						<label id="SuUserMessChaPass">密码：</label>
+						<input type="text" placeholder="password" />
+						<label id="SuUserMessChaPassAgain">密码确认：</label>
+						<input type="text" placeholder="password again" />
+						<label id="SuUserMessChaEmail">邮箱：</label>
+						<input type="text" placeholder="email" />
+					</form>
+
+					<a href="userMessage.html" data-transition="none" data-ajax=false>
+						<button class="SuChangeMessage">修改资料</button>
+					</a>
+				</div>
 			</div>
-		
+
 		</div>
-		<script src="../../js/jquery.min.js"></script>
-        <script type="text/javascript" src="../../js/jquery.mobile-1.4.5.min.js" ></script>
-        <script src="../../js/totalAct.js"></script>
-</body>
+
+		<script src="../../js/totalAct.js"></script>
+		<script src="../../js/supplierAct.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
 </html>
